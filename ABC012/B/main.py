@@ -1,0 +1,8 @@
+N=int(input())
+h = str(N//3600)
+m = str(N%3600//60)
+s = str(N%3600%60)
+hl = ['0'] + list(h)
+ml = ['0'] + list(m)
+sl = ['0'] + list(s)
+print("{}:{}:{}".format(''.join(hl[-2:]),''.join(ml[-2:]),''.join(sl[-2:])))

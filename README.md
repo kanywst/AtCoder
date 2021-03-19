@@ -1,1 +1,1 @@
-# AtCoder-by-Python
+# AtCoder
